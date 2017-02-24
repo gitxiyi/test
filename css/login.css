@@ -1,0 +1,20 @@
+@charset "utf-8";
+body{ font-family:"微软雅黑";background:#007368;overflow-x:hidden;margin:0;padding:0;}
+a{ text-decoration:none; color:#353535;}
+a:hover{ text-decoration:none;}
+a:focus,input:focus{outline:none;}
+ul,li{list-style:none;}
+
+/*登录界面css样式开始*/
+.wrapper{width:602px;height:371px;background:url(images/bg.png) no-repeat left center;margin:0 auto;position:relative;top:100px;;}
+.left{position:absolute;top:30px;left:290px;width:320px;font-size:14px;}
+.left h2{font-size:25px;color:#fff;font-weight:normal;margin-bottom:30px;}
+.left form p{height:35px;line-height:35px;}
+.left form label{width:65px;display:block;float:left;text-align:right;}
+.left form .text{width:195px;height:26px;border:1px solid #064741;line-height:26px;}
+.left form .btn{width:98px;height:37px;display:block;color:#fff;background:url(images/btn_bg.png) no-repeat left center;text-align:center;line-height:37px;border:none;color:#fff;margin-left:60px;font-size:16px;font-weight:bold;float:left;}
+.left form .btnText{margin-top:30px;}
+.left form .register{margin-left:20px;color:#086a5a;font-size:12px;}
+.left form .register:hover{color:#fb2104;text-decoration:underline;}
+.copyright{width:400px;height:45px;line-height:45px;color:#262828;position:absolute;bottom:0;left:200px;text-align:left;font-size:14px;}
+/*登录界面css样式结束*/
